@@ -3,7 +3,7 @@ AC_CONFIG_SRCDIR([main.c])
 AM_CONFIG_HEADER(config.h)
 AM_INIT_AUTOMAKE
 AC_PROG_CC
-AC_CHECK_LIB([ssl],[SHA1],,[AC_MSG_ERROR([error, OpenSSL required])])
+AC_CHECK_LIB([crypto],[SHA1],,[AC_MSG_ERROR([error, OpenSSL required])])
 AC_HEADER_DIRENT
 AC_HEADER_STDC
 AC_CHECK_HEADER([openssl/sha.h],,[AC_MSG_ERROR([Error, OpenSSL header file sha.h not found.])])
