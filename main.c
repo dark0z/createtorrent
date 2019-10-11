@@ -22,7 +22,7 @@ int create_from_file( const char*, FILE*, long long, int );
 int create_from_directory( const char*, FILE*, int );
 void write_name( const char*, FILE* );
 
-const char* __version__ = "1.1.4";
+const char* __version__ = "1.1.4-r1";
 int files = 0;
 char* comment = NULL;
 int inclusive = 0;
