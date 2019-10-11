@@ -1,4 +1,4 @@
-AC_INIT([createtorrent],[1.1.4])
+AC_INIT([createtorrent],[1.1.4-r1])
 AC_CONFIG_SRCDIR([main.c])
 AM_CONFIG_HEADER(config.h)
 AM_INIT_AUTOMAKE
